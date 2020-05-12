@@ -1,0 +1,76 @@
+a {
+	color: white;
+	text-decoration: none;
+	transition-duration: 400ms;
+	&:hover {
+		color: black;
+	}
+}
+body {
+	font-size: 1.3vw;
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+}
+.fortniteShop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.NAV {
+	background-color: grey;
+	height: 10vh;
+	width: 90vw;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.StorePage {
+	margin-top: 5vh;
+	text-align: center;
+	a {
+		color: white;
+		text-decoration: none;
+		transition-duration: 400ms;
+		&:hover {
+			font-size: 1.6vw;
+		}
+	}
+}
+.itemNameList {
+	height: 6.2vh;
+}
+.fullPage {
+	height: 85vh;
+}
+.homePage {
+	height: 85vh;
+
+	background-image: url("./Images/fortForever.png");
+	background-position: bottom;
+	background-size: cover;
+	width: 50vw;
+}
+
+.productProduct {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+	font-size: 3vw;
+	text-shadow: 0.5px 0.5px 0px white;
+}
+.productImage {
+	height: 49vh;
+	width: 50vh;
+	background-size: cover;
+	background-position: center;
+}
+.productCost {
+	color: lightgreen;
+}
+.rare {
+	color: red;
+}

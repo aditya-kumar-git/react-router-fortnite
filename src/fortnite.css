@@ -1,0 +1,113 @@
+a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  font-size: 1.3vw;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.fortniteShop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NAV {
+  background-color: grey;
+  height: 10vh;
+  width: 90vw;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.StorePage {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.StorePage a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
+}
+
+.StorePage a:hover {
+  font-size: 1.6vw;
+}
+
+.itemNameList {
+  height: 6.2vh;
+}
+
+.fullPage {
+  height: 85vh;
+}
+
+.homePage {
+  height: 85vh;
+  background-image: url("./Images/fortForever.png");
+  background-position: bottom;
+  background-size: cover;
+  width: 50vw;
+}
+
+.productProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+  font-size: 3vw;
+  text-shadow: 0.5px 0.5px 0px white;
+}
+
+.productImage {
+  height: 49vh;
+  width: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.productCost {
+  color: lightgreen;
+}
+
+.rare {
+  color: red;
+}
+/*# sourceMappingURL=fortnite.css.map */
